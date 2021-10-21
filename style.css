@@ -1,0 +1,300 @@
+body {
+    width: 1400px;
+    margin:0 auto;
+    padding-top: 50px;
+    background-color:white;
+    color:black;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav{
+    width: 700px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover{
+    color:#10c9c3;
+}
+
+.main-nav a:active{
+    color: #10c9c3;
+}
+
+.baner{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.promo{
+    margin:auto;
+    margin-left: 0;
+}
+
+.promo h2{
+    font-size: 2.5em;
+    line-height: 2em;
+}
+
+.promo p{
+    width: 500px;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin-bottom: 50px;
+}
+
+.btn{
+    display: inline-block;
+    width: 150px;
+    padding: 15px;
+    font: inherit;
+    vertical-align: top;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 1em;
+    color: white;
+}
+
+.color{
+    background-color: #10c9c3;
+}
+
+.about{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.25em;
+}
+
+.about h3{
+    font-size: 1.75em;
+    line-height: 2.5em;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    background-color: #d4d7dc;
+}
+
+.info{
+    padding: 80px;
+    width: 600px;
+    
+}
+
+.info p{
+    padding-top:20px;
+}
+
+.grey{
+    width: 400px;
+    height: 5px;
+    background-color:darkgray;
+    position: absolute;
+}
+
+.green{
+    height: 5px;
+    position: absolute;
+}
+
+.design{
+    width: 300px;
+}
+
+.development{
+    width: 360px;
+}
+
+.marketing{
+    width: 260px;
+}
+
+.results{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.results p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-left:10px;
+}
+
+.results img{
+    align-self: center;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio img{
+    width: 30px;
+    height: 30px;
+}
+
+.photo{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.photo img{
+width: 350px;
+height: 350px;
+}
+
+.photo a:hover{
+    opacity: 0.3;
+}
+
+.video{
+    text-align: center;
+}
+
+.video h3{
+    font-size: 1.75em;
+    line-height: 2em;
+}
+.video p{
+    margin: 0 auto;
+    width: 500px;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.video video{
+    padding:30px 0;
+}
+
+.service{
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+    background-color: #d4d7dc;
+}
+
+.service-item{
+    width: 250px;
+    padding: 40px;   
+}
+
+.service-item h3{
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+
+.service-item p{
+    font-size: 0.75em;
+}
+
+section{
+    margin:0;
+}
+
+.citate{
+    margin: 0;
+    padding:100px 300px;
+    text-align: center;
+    color: white;
+}
+
+.citate h3{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.citate cite{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.partner{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order{
+    background-color: #d4d7dc;
+    padding: 100px 350px;
+    text-align: center;
+}
+
+.feedback input{
+    margin-bottom:10px;
+    height: 5px;
+    width: 500px;
+    padding: 15px;
+}
+
+.feedback textarea{
+    height: 55px;
+    width: 500px;
+    padding: 15px;
+}
+
+.order a{
+    margin-top:40px;
+}
+
+footer{
+    margin:0;
+    padding: 80px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+
+.menu a:hover{
+    color:#10c9c3;
+}
+
+.menu a:active{
+    color: #10c9c3;
+}
+
+
+
+
+
